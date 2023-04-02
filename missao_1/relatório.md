@@ -4,7 +4,7 @@
 
 ## Missão
 
-[ ] Montar um circuito com Arduino para fazer um led piscar em 3 períodos diferentes.
+Montar um circuito com Arduino para fazer um led piscar em 3 períodos diferentes.
 
 ## Introdução
 
