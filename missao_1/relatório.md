@@ -2,7 +2,7 @@
 
 ---
 
-# Missão
+## Missão
 
 [x] Montar um circuito com Arduino para fazer um led piscar em 3 períodos diferentes.
 
@@ -11,8 +11,6 @@
 O objetivo deste relatório é apresentar o circuito desenvolvido no TinkerCAD, que utiliza um Arduino Uno R3, 4 leds, 1 botão, 4 resistores de 150 ohms e 1 resistor de 10 kohms. O circuito foi desenvolvido para demonstrar três modos diferentes no led conectado ao pino 13 do Arduino. Além disso, os outros três leds servem para indicar qual modo está em funcionamento. O botão, por sua vez, é utilizado para alterar o modo de piscada do led.
 
 ## Materiais utilizados
-
-Faça uma tabela
 
 | Nome | Quantidade | Componente |
 |:----:|:----------:|:----------:|
@@ -32,7 +30,16 @@ O circuito pode ser acessado [aqui](https://www.tinkercad.com/things/cqSO2AV83Ep
 
 ## Circuito do Arduino Uno R3
 
-Os leds estão conectados aos pinos 13, 2, 1 e 0 do Arduino, enquanto o botão está conectado ao pino 12. Cada led possui um resistor de 150 ohms em série para limitar a corrente que passa pelo circuito. Já o botão possui um resistor de 10 kohms em série para evitar que haja corrente excessiva passando pelo circuito quando o botão é pressionado.
+Os leds estão conectados aos pinos 13, 2, 1 e 0 do Arduino, enquanto o botão está conectado ao pino 12. Cada led possui um resistor de 150 ohms em série para limitar a corrente que passa pelo circuito.
+Para o cálculo da resistência foi utilizado a seguinte fórmula:
+
+$$ R = \frac{V_{cc} - V_{led}}{I_{led}} $$
+
+Na qual Vcc é a tensão de alimentação do circuito que é 5 volts, Vled é a tensão que o led precisa para funcionar e Iled é a corrente que o led consome. No caso do led vermelho, a tensão necessária é de 2 volts e a corrente é de 20 mA, então:
+
+$$ R = \frac{5 - 2}{0.02} = 150 \Omega $$
+
+Já o botão possui um resistor de 10 kohms em série para evitar que haja corrente excessiva passando pelo circuito quando o botão é pressionado.
 Funcionamento do circuito
 
 O programa desenvolvido para o Arduino faz com que o led conectado ao pino 13 pisque em três modos diferentes: constante, desligado e piscada normal. A cada vez que o botão é pressionado, o modo de piscada é alterado. Os leds conectados aos pinos 2, 1 e 0 servem para indicar qual modo está em funcionamento.
