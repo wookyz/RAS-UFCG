@@ -28,7 +28,7 @@ O circuito foi montado conforme a figura abaixo:
 
 ![Circuito de Arduino Uno R3](circuit.png)
 
-O circuito pode ser acessado [aqui](https://)
+O circuito pode ser acessado [aqui](https://www.tinkercad.com/things/cqSO2AV83Ep-sizzling-kup-rottis/editel?sharecode=Q0StE0Q44p3Bf00AVAsJu6152gDBIaA629UHOi3vmYE)
 
 ## Circuito do Arduino Uno R3
 
