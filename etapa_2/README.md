@@ -1,0 +1,5 @@
+# Relatório
+
+---
+
+- [ ] Fazer o relatório.
