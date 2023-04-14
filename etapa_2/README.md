@@ -25,6 +25,8 @@ A escolha do Tkinter para a interface gráfica se deu por ser uma biblioteca nat
 
 ![Com a máscara amarela](./amarelo.png)
 
+> **OBS:** é possível que os intervalos padrões de cores não funcionem, pois pode haver diferenças de iluminação e na própria câmera, por isso, é possível alterar os valores dos sliders para melhorar a detecção.
+
 Irei explicar a parte mais importante do código na qual é feita a detecção do objeto, a trajetória e o desenho do retângulo em volta do objeto.
 
 ```python
